@@ -1,0 +1,17 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    background-image: url('/bgBranco.png');
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container h1{
+    color: var(--azul);
+}
+
+.txt-aboutme{
+    font-family: "montserrat";
+    width: 40%;
+    text-align: justify;
+}

@@ -1,0 +1,9 @@
+h1{
+    font-family: "montserrat", sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}

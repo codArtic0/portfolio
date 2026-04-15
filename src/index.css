@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body, :root {
+  height: 100%;
+  margin: 0;
+}
+
 :root {
-  
+  --azul: #456df3;
+  background-image: url("/bg.png") 
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
