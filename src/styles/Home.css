@@ -5,11 +5,13 @@
     margin: 50px 0px;
 }
 
+
 .title h1{
     color: white;
     font-weight: 300;
     font-size: 4rem;
     transition: 0.6s;
+    margin: 0;
 }
 
 .title h1:hover{
@@ -44,6 +46,20 @@
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
 }
 
+.title-elements{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 12rem;
+    margin-bottom: 2rem;
+}
+
+.title{
+    z-index: 1;
+}
+
 .name-logo{
     display: flex;
     align-items: center;
@@ -58,4 +74,40 @@
 
 .name-logo h1:hover{
     font-weight: 600;
+}
+
+.logo-js,
+.logo-java{
+    width: 4rem;
+    position: absolute;
+    top: 0;
+    transition: transform 0.6s, box-shadow 0.6s;
+}
+
+.logo-js{
+    left: 300px;
+    transform: translate(-12px, 12px) rotate(30deg);
+}
+
+.logo-java{
+    right: 300px;
+    transform: translate(12px, 12px) rotate(-30deg);
+}
+
+.title:hover ~ .logo-js{
+    transform: translate(-120px, -40px) rotate(30deg);
+}
+
+.title:hover ~ .logo-java{
+    transform: translate(120px, -40px) rotate(-30deg);
+}
+
+.logo-js:hover{
+    box-shadow: 0 0 30px rgba(255, 255, 0, 0.775);
+    transform: translate(-48px, -24px) rotate(45deg) scale(1.2);
+}
+
+.logo-java:hover{
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.775);
+    transform: translate(48px, -24px) rotate(-45deg) scale(1.2);
 }
