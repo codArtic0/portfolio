@@ -6,6 +6,21 @@
     justify-content: center;
     min-height: auto;
     padding: 40px 20px;
+    gap: 20px;
+}
+
+.title-page{
+    color: white;
+    font-weight: 600;
+    font-size: 4rem;
+    transition: 0.6s;
+    margin: 0;
+}
+
+.title-page:hover{
+    color: white;
+    font-weight: 800;
+    font-size: 5rem;
 }
 
 @media (max-width: 768px) {
