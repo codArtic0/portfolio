@@ -49,3 +49,18 @@
     color: white;
     font-size: 40px;
 }
+
+.logo-js-icon:hover{
+    box-shadow: 0 0 30px rgba(255, 255, 0, 0.775);
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.logo-java-icon:hover{
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.775);
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.logo-js-icon, .logo-java-icon{
+    transition: 0.6s;
+}
