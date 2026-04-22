@@ -15,3 +15,7 @@
     width: 40%;
     text-align: justify;
 }
+
+p{
+    line-height: 20px;
+}

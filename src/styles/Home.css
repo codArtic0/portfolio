@@ -86,12 +86,12 @@
 
 .logo-js{
     left: 300px;
-    transform: translate(-12px, 12px) rotate(30deg);
+    transform: translate(-12px, 0px) rotate(30deg);
 }
 
 .logo-java{
     right: 300px;
-    transform: translate(12px, 12px) rotate(-30deg);
+    transform: translate(12px, 0px) rotate(-30deg);
 }
 
 .title:hover ~ .logo-js{

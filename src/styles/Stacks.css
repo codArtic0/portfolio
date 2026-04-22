@@ -1,0 +1,7 @@
+.stacks-container{
+    display: flex;
+    flex-direction: column;
+    background-image: url('/bg.png');
+    align-items: center;
+    justify-content: center;
+}

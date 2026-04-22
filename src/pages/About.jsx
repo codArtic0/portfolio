@@ -5,7 +5,9 @@ export default function About() {
       <div className='about-container'>
         <h1>SOBRE MIM</h1>
         <div className="txt-aboutme">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias libero corrupti reprehenderit! Voluptate itaque sapiente suscipit deleniti voluptatibus praesentium, voluptatem in possimus delectus, debitis natus dicta corporis nobis, harum eveniet!Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias libero corrupti reprehenderit! Voluptate itaque sapiente suscipit deleniti voluptatibus praesentium, voluptatem in possimus delectus, debitis natus dicta corporis nobis, harum eveniet!Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias libero corrupti reprehenderit! Voluptate itaque sapiente suscipit deleniti voluptatibus praesentium, voluptatem in possimus delectus, debitis natus dicta corporis nobis, harum eveniet!</p>
+            <p> Me chamo Raul Sousa, sou Desenvolvedor Full-Stack em formação pela Universidade Estadual da Paraíba
+              (UEPB) Campus VII em Patos - PB. Trabalho há + de 8 anos com Design Gráfico e há + de 5 anos com Motion Design.</p>
+              <p> Atualmente, estou em busca de vagas de <strong>Entrada</strong> no mundo de Desenvolvimento Web.</p>
         </div>
       </div>
   )

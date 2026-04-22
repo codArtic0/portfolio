@@ -1,6 +1,7 @@
 import "../styles/App.css"
 import Home from "./Home"
 import About from "./About"
+import Stacks from "./Stacks"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <main>
           <Home />
           <About/>
+          <Stacks/>
         </main>
       </div>
     </>
