@@ -10,8 +10,8 @@ export default function Home() {
             <strong className="portfolio-word">Raul Sousa</strong>!
           </h1>
         </div>
-        <img className="logo-js" src="/jsLogo.webp" alt="Logo JavaScript" />
-        <img className="logo-java" src="javaLogo.webp" alt="Logo Java" />
+        <img className="logo-js" src="/stackIcons/jsLogo.webp" alt="Logo JavaScript" />
+        <img className="logo-java" src="/stackIcons/javaLogo.webp" alt="Logo Java" />
       </div>
       <div className="name-logo">
         <div className="bg-photo">
