@@ -131,17 +131,33 @@
     }
 }
 
+.logo-js-icon:hover, .logo-java-icon:hover, .logo-postgres-icon:hover, .logo-mongo-icon:hover, .logo-mysql-icon:hover, .logo-python-icon:hover, .logo-react-icon:hover,
+.logo-vite-icon:hover, .logo-node-icon:hover, .logo-prisma-icon:hover{
+    transform: scale(1.1);
+}
+
 .logo-js-icon:hover{
     box-shadow: 0 0 30px rgba(255, 255, 0, 0.775);
-    transform: scale(1.1);
+}
+
+.logo-react-icon:hover, .logo-vite-icon:hover{
+    box-shadow: 0 0 30px rgba(150, 150, 150, 0.775);
+}
+
+.logo-java-icon:hover, .logo-postgres-icon:hover, .logo-mongo-icon:hover, .logo-mysql-icon:hover, .logo-python-icon:hover{
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.775);
+}
+
+.logo-node-icon:hover{
+    box-shadow: 0 0 30px rgba(82, 235, 11, 0.775);
+}
+
+.logo-prisma-icon:hover{
+    box-shadow: 0 0 30px rgba(0, 255, 221, 0.775);
+}
+
+.logo-js-icon, .logo-java-icon, .logo-postgres-icon, .logo-mongo-icon, .logo-mysql-icon, .logo-python-icon, .logo-react-icon,
+.logo-vite-icon, .logo-node-icon, .logo-prisma-icon{
     transition: 0.6s;
 }
 
-.logo-java-icon:hover{
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.775);
-    transform: scale(1.1);
-    transition: 0.6s;
-}
-.logo-js-icon, .logo-java-icon{
-    transition: 0.6s;
-}

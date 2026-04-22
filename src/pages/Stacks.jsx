@@ -9,11 +9,11 @@ export default function Stacks() {
             <div className="group-stacks">
               <h1 className="title-stack">FRONT-END</h1>
               <div className="group-stack-element">
-                <img  className="react-icon" src="stackIcons/reactLogo.webp" alt="Logo React" />
+                <img  className="logo-react-icon" src="stackIcons/reactLogo.webp" alt="Logo React" />
                 <h1>REACT.JS</h1>
               </div>
               <div className="group-stack-element">
-                <img  className="vite-icon" src="stackIcons/viteLogo.webp" alt="Logo Vite" />
+                <img  className="logo-vite-icon" src="stackIcons/viteLogo.webp" alt="Logo Vite" />
                 <h1>VITE</h1>
               </div>
             </div>
