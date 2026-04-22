@@ -9,11 +9,11 @@ export default function Stacks() {
             <div className="group-stacks">
               <h1 className="title-stack">FRONT-END</h1>
               <div className="group-stack-element">
-                <img  className="react-icon" src="stackIcons/reactLogo.webp" alt="Logo JavaScript" />
+                <img  className="react-icon" src="stackIcons/reactLogo.webp" alt="Logo React" />
                 <h1>REACT.JS</h1>
               </div>
               <div className="group-stack-element">
-                <img  className="vite-icon" src="stackIcons/viteLogo.webp" alt="Logo JavaScript" />
+                <img  className="vite-icon" src="stackIcons/viteLogo.webp" alt="Logo Vite" />
                 <h1>VITE</h1>
               </div>
             </div>
@@ -26,7 +26,7 @@ export default function Stacks() {
                 <h1>JAVASCRIPT</h1>
               </div>
               <div className="group-stack-element">
-                <img className="logo-java-icon" src="stackIcons/javaLogo.webp" alt="Logo JavaScript" />
+                <img className="logo-java-icon" src="stackIcons/javaLogo.webp" alt="Logo Java" />
                 <h1>JAVA</h1>
               </div>
               <div className="group-stack-element">
@@ -34,7 +34,7 @@ export default function Stacks() {
                 <h1>PYTHON</h1>
               </div>
               <div className="group-stack-element">
-                <img className="logo-node-icon" src="stackIcons/nodeLogo.webp" alt="Logo Python" />
+                <img className="logo-node-icon" src="stackIcons/nodeLogo.webp" alt="Logo Node.JS" />
                 <h1>NODE.JS</h1>
               </div>
             </div>
@@ -44,19 +44,19 @@ export default function Stacks() {
             <div className="group-stacks">
               
               <div className="group-stack-element">
-                <img className="logo-postgres-icon" src="stackIcons/postgresLogo.webp" alt="Logo JavaScript" />
+                <img className="logo-postgres-icon" src="stackIcons/postgresLogo.webp" alt="Logo PostgreSQL" />
                 <h1>POSTGRESQL</h1>
               </div>
               <div className="group-stack-element">
-                <img className="logo-mysql-icon" src="stackIcons/mysqlLogo.webp" alt="Logo JavaScript" />
+                <img className="logo-mysql-icon" src="stackIcons/mysqlLogo.webp" alt="Logo MySQL" />
                 <h1>MYSQL</h1>
               </div>
               <div className="group-stack-element">
-                <img className="logo-prisma-icon" src="stackIcons/prismaLogo.webp" alt="Logo JavaScript" />
+                <img className="logo-prisma-icon" src="stackIcons/prismaLogo.webp" alt="Logo Prisma ORM" />
                 <h1>PRISMA</h1>
               </div>
               <div className="group-stack-element">
-                <img className="logo-mongo-icon" src="stackIcons/mongoLogo.webp" alt="Logo JavaScript" />
+                <img className="logo-mongo-icon" src="stackIcons/mongoLogo.webp" alt="Logo Mongo.DB" />
                 <h1>MONGO.DB</h1>
               </div>
             </div>
