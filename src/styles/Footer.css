@@ -3,3 +3,15 @@
     padding: 1vh;
 }
 
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        padding: 0.75rem;
+    }
+}
+

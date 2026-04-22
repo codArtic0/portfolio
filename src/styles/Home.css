@@ -3,6 +3,19 @@
     flex-direction: column;
     align-items: center;
     margin: 50px 0px;
+    padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .home-container {
+        margin: 30px 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-container {
+        margin: 20px 0px;
+    }
 }
 
 
@@ -20,6 +33,36 @@
     font-size: 5rem;
 }
 
+@media (max-width: 1024px) {
+    .title h1 {
+        font-size: 3rem;
+    }
+    
+    .title h1:hover {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .title h1 {
+        font-size: 2rem;
+    }
+    
+    .title h1:hover {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title h1 {
+        font-size: 1.5rem;
+    }
+    
+    .title h1:hover {
+        font-size: 1.8rem;
+    }
+}
+
 
 .portfolio-word{
     font-weight: 900;
@@ -30,6 +73,20 @@
     border-radius: 100%;
     width: 6rem;
     height: 6rem;
+}
+
+@media (max-width: 768px) {
+    .photo {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .photo {
+        width: 3rem;
+        height: 3rem;
+    }
 }
 
 .bg-photo{
@@ -54,6 +111,19 @@
     width: 100%;
     min-height: 12rem;
     margin-bottom: 0.2rem;
+    padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+    .title-elements {
+        min-height: 8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .title-elements {
+        min-height: 6rem;
+    }
 }
 
 .title{

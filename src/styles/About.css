@@ -4,6 +4,19 @@
     background-image: url('/bgBranco.png');
     align-items: center;
     justify-content: center;
+    padding: 40px 20px;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        padding: 30px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-container {
+        padding: 20px 10px;
+    }
 }
 
 .about-container h1{
@@ -14,6 +27,26 @@
     font-family: "montserrat";
     width: 40%;
     text-align: justify;
+    padding: 0 20px;
+}
+
+@media (max-width: 1024px) {
+    .txt-aboutme {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .txt-aboutme {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .txt-aboutme {
+        width: 90%;
+        padding: 0 15px;
+    }
 }
 
 p{
