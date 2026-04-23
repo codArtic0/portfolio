@@ -4,6 +4,7 @@
     background-image: url('/bg.png');
     align-items: center;
     justify-content: center;
+    height: 100vh;
     min-height: auto;
     padding: 40px 20px;
     gap: 20px;
@@ -62,6 +63,10 @@
     justify-content: left;
 }
 
+.card:hover{
+    transform: scale(1.05);
+}
+
 .group-stack-element{
     display: flex;
     gap: 10px;
@@ -111,6 +116,7 @@
     background-color: rgb(0, 44, 137);
     border-radius: 12px;
     margin: 20px;
+    transition: 0.6s;
 }
 
 @media (max-width: 768px) {

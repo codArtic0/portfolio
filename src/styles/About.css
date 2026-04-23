@@ -1,54 +1,31 @@
 .about-container{
     display: flex;
-    flex-direction: column;
     background-image: url('/bgBranco.png');
     align-items: center;
     justify-content: center;
     padding: 40px 20px;
-}
-
-@media (max-width: 768px) {
-    .about-container {
-        padding: 30px 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    .about-container {
-        padding: 20px 10px;
-    }
+    height: 100vh;
 }
 
 .about-container h1{
     color: var(--azul);
+    font-size: 48px;
 }
 
 .txt-aboutme{
     font-family: "montserrat";
-    width: 40%;
+    font-size: 30px;
+    width: 80%;
     text-align: justify;
     padding: 0 20px;
 }
 
-@media (max-width: 1024px) {
-    .txt-aboutme {
-        width: 60%;
-    }
+.img-container img{
+    height: 100vh;
 }
 
-@media (max-width: 768px) {
-    .txt-aboutme {
-        width: 80%;
-    }
-}
-
-@media (max-width: 480px) {
-    .txt-aboutme {
-        width: 90%;
-        padding: 0 15px;
-    }
-}
-
-p{
-    line-height: 20px;
+.txt-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -3,7 +3,7 @@ import "../styles/Stacks.css";
 export default function Stacks() {
   return (
     <>
-      <div className="stacks-container">
+      <div id="stacks" className="stacks-container">
         <h1 className="title-page">Minhas Stacks</h1>
         <div className="group-all-stacks">
           <div className="card">

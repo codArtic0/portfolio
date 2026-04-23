@@ -2,7 +2,7 @@ import "../styles/Home.css";
 
 export default function Home() {
   return (
-    <div className="home-container">
+    <div id="home" className="home-container">
       <div className="title-elements">
         <div className="title">
           <h1>
