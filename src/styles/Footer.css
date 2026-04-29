@@ -1,17 +1,22 @@
 .footer-container{
     background-color: transparent;
-    padding: 1vh;
+    padding: 1vh 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
     .footer-container {
-        padding: 1rem;
+        padding: 1rem 16px;
     }
 }
 
 @media (max-width: 480px) {
     .footer-container {
-        padding: 0.75rem;
+        padding: 0.75rem 12px;
     }
 }
 

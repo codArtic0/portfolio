@@ -3,68 +3,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 50px 0px;
+    margin: 40px 0;
     padding: 0 20px;
-    height: 75vh;
+    min-height: 60vh;
 }
-
-@media (max-width: 768px) {
-    .home-container {
-        margin: 30px 0px;
-    }
-}
-
-@media (max-width: 480px) {
-    .home-container {
-        margin: 20px 0px;
-    }
-}
-
 
 .title h1{
     color: white;
     font-weight: 300;
-    font-size: 4rem;
-    transition: 0.6s;
+    font-size: clamp(1.5rem, 5vw, 4rem);
+    transition: 0.35s;
     margin: 0;
 }
 
 .title h1:hover{
     color: white;
     font-weight: 600;
-    font-size: 5rem;
 }
-
-@media (max-width: 1024px) {
-    .title h1 {
-        font-size: 3rem;
-    }
-    
-    .title h1:hover {
-        font-size: 3.5rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .title h1 {
-        font-size: 2rem;
-    }
-    
-    .title h1:hover {
-        font-size: 2.3rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .title h1 {
-        font-size: 1.5rem;
-    }
-    
-    .title h1:hover {
-        font-size: 1.8rem;
-    }
-}
-
 
 .portfolio-word{
     font-weight: 900;
@@ -73,22 +28,8 @@
 .photo{
     background-color: white;
     border-radius: 100%;
-    width: 6rem;
-    height: 6rem;
-}
-
-@media (max-width: 768px) {
-    .photo {
-        width: 4rem;
-        height: 4rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .photo {
-        width: 3rem;
-        height: 3rem;
-    }
+    width: clamp(3rem, 4vw, 6rem);
+    height: clamp(3rem, 4vw, 6rem);
 }
 
 .bg-photo{
@@ -98,11 +39,11 @@
     padding: 5px;
     background-color: white;
     border-radius: 100%;
-    transition: 0.6s;
+    transition: 0.4s;
 }
 
 .bg-photo:hover{
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
 }
 
 .title-elements{
@@ -111,21 +52,9 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 12rem;
+    min-height: auto;
     margin-bottom: 0.2rem;
     padding: 0 20px;
-}
-
-@media (max-width: 768px) {
-    .title-elements {
-        min-height: 8rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .title-elements {
-        min-height: 6rem;
-    }
 }
 
 .title{
@@ -141,7 +70,7 @@
 .name-logo h1{
     font-weight: 200;
     color: white;
-    transition: 0.6s;
+    transition: 0.4s;
 }
 
 .name-logo h1:hover{
@@ -157,29 +86,79 @@
 }
 
 .logo-js{
-    left: 300px;
-    transform: translate(-12px, 0px) rotate(30deg);
+    left: 20%;
+    transform: translate(-12px, -80px) rotate(30deg);
 }
 
 .logo-java{
-    right: 300px;
-    transform: translate(12px, 0px) rotate(-30deg);
+    right: 20%;
+    transform: translate(12px, -80px) rotate(-30deg);
 }
 
 .title:hover ~ .logo-js{
-    transform: translate(-120px, -40px) rotate(30deg);
+    transform: translate(-120px, -120px) rotate(30deg);
 }
 
 .title:hover ~ .logo-java{
-    transform: translate(120px, -40px) rotate(-30deg);
+    transform: translate(120px, -120px) rotate(-30deg);
 }
 
 .logo-js:hover{
     box-shadow: 0 0 30px rgba(255, 255, 0, 0.775);
-    transform: translate(-48px, -24px) rotate(45deg) scale(1.2);
+    transform: translate(-48px, -150px) rotate(45deg) scale(1.2);
 }
 
 .logo-java:hover{
     box-shadow: 0 0 30px rgba(255, 255, 255, 0.775);
-    transform: translate(48px, -24px) rotate(-45deg) scale(1.2);
+    transform: translate(48px, -150px) rotate(-45deg) scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .home-container{
+        margin: 24px 0;
+    }
+
+    .logo-js, .logo-java{
+        display: none;
+    }
+
+    .title h1{
+        font-size: clamp(1.2rem, 6vw, 2rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .home-container{
+        margin: 16px 0;
+    }
+
+    .title h1{
+        font-size: clamp(1rem, 7vw, 1.6rem);
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .logo-js, .logo-java{ display: none; }
+}
+
+
+.bg-photo{
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: clamp(3.6rem, 6vw, 7rem);
+    height: clamp(3.6rem, 6vw, 7rem);
+    padding: 4px;
+    border-radius: 50%;
+    background: white;
+}
+
+.photo{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        border-radius: 50%;
 }
