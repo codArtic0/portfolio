@@ -66,6 +66,8 @@
 
 .card:hover{
     transform: scale(1.05);
+    background-color:rgba(0, 44, 137, 0.1);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.775);
 }
 
 .group-stack-element{
@@ -114,9 +116,12 @@
     align-items: center;
     justify-content: center;
     padding: clamp(16px, 3vw, 40px);
-    background-color: rgb(0, 44, 137);
+    background-color: rgba(0, 44, 137, 0.8);
     border-radius: 12px;
     margin: 20px;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
     transition: 0.3s;
     width: 100%;
     max-width: 420px;

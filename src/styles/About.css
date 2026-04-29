@@ -1,16 +1,23 @@
 .about-container{
     display: flex;
-    background-image: url('/bgBranco.png');
     align-items: center;
     justify-content: center;
-    padding: 40px 20px;
     height: auto;
     gap: 20px;
 }
 
 .about-container h1{
-    color: var(--azul);
+    color: white;
     font-size: clamp(1.8rem, 3.5vw, 3rem);
+    transition: 0.6s;
+}
+
+.about-container h1:hover{
+    font-weight: 900;
+}
+
+p{
+    color: white;
 }
 
 .txt-aboutme{
