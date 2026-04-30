@@ -3,6 +3,15 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100vh;
+}
+
+.cards-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
 .head-page{
@@ -30,7 +39,7 @@ h3{
     gap: 30px;
     width: 95%;
 }
-.card-principal, .card-secundario{
+.card-principal, .card-secundario, .card-destaque{
     display: flex;
     flex-direction: column;
     border: solid 1px #CCC;
@@ -47,8 +56,14 @@ h3{
     width: 150%;
     background-color: var(--cinzinha);
 }
-.card-secundario{
+.card-secundario, .card-destaque{
     width: fit-content;
+}
+
+.card-destaque {
+    background-color: var(--azul);
+    color: white;
+    border-radius: 20px;
 }
 .icon{
     width: 30px;
@@ -60,6 +75,6 @@ h3{
     width: 100%;
 }
 
-.card-principal:hover, .card-secundario:hover{
+.card-principal:hover, .card-secundario:hover, .card-destaque:hover{
     transform: translateY(-30px);
 }
