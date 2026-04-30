@@ -1,0 +1,65 @@
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: var(--fonte-principal);
+    font-size: clamp(16px, 4vw, 34px);
+    margin: 40px 0 0 0;
+}
+
+h3{
+    font-family: var(--fonte-principal);
+    font-size: clamp(8px, 2vw, 17px);
+    margin: 20px 0 0 0;
+}
+.cards{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 30px;
+    width: 95%;
+}
+.card-principal, .card-secundario{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #CCC;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.6s;
+}
+
+.description-skills{
+    margin-bottom: 40px;
+}
+
+.card-principal{
+    width: 150%;
+    background-color: var(--cinzinha);
+}
+.card-secundario{
+    width: fit-content;
+}
+.icon{
+    width: 30px;
+}
+.p-container-principal{
+    width: fit-content;
+}
+.p-container-secundario{
+    width: 100%;
+}
+
+.card-principal:hover, .card-secundario:hover{
+    transform: translateY(-30px);
+}

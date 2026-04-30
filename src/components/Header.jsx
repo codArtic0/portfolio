@@ -10,6 +10,7 @@ export default function Header() {
                 <div className="menu">
                     <ul>
                         <li>HOME</li>
+                        <li>SKILLS</li>
                     </ul>
                 </div>
             </div>
