@@ -1,0 +1,42 @@
+.footer-container{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-content-container{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-name, .direitos , .menu{
+    display: flex;
+    flex: 1;
+}
+
+.name{
+    font-size: 24px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    font-family: var(--fonte-principal);
+    list-style-type: none;
+    padding: 0;
+}
+
+li:hover{
+    cursor: pointer;
+}
