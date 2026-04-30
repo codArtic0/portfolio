@@ -21,11 +21,16 @@
 h1{
     font-family: var(--fonte-principal);
     font-size: 62px;
+    margin: 8px 0px;
 }
 
 p{
     font-family: var(--fonte-destaque);
     font-weight: 300;
+}
+
+.paragraph-description{
+    width: 50%;
 }
 
 .button-group{
