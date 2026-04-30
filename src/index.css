@@ -2,10 +2,13 @@
 
 body{
     margin: 0;
-    
+
     --fonte-principal: 'Inter', sans-serif;
     --fonte-destaque: 'Montserrat', sans-serif;
     --azul: #2770FA;
+    --azul-hovered: #4987fb;
+    --branco: #FFF;
+    --branco-hovered: #EEE;
     --azul-claro: #b0ccff;
     --cinzinha: #F8FAFC;
     --cinza-escuro: #8b8b8b;
