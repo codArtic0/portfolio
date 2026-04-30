@@ -37,6 +37,13 @@ ul{
     padding: 0;
 }
 
+.footer-container li {
+    padding: 15px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
 li:hover{
     cursor: pointer;
+    background-color: #DDD;
 }
