@@ -3,6 +3,7 @@
     display: flex;
     border: solid 1px #CCC;
     padding: 20px;
+    height: 90vh;
 }
 
 @media (max-width: 768px){
@@ -37,8 +38,9 @@
 
 h1{
     font-family: var(--fonte-principal);
-    font-size: clamp(32px, 8vw, 68px);
+    font-size: clamp(32px, 8vw, 72px);
     margin: 8px 0px;
+    width: 80%;
 }
 
 p{
@@ -64,7 +66,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 70%;
     max-width: 500px;
 }
 
