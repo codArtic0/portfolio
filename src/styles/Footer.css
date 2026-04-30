@@ -38,7 +38,7 @@ ul{
 }
 
 .footer-container li {
-    padding: 15px 20px;
+    padding: 10px 20px;
     border-radius: 20px;
     transition: 0.3s;
 }
@@ -46,4 +46,9 @@ ul{
 li:hover{
     cursor: pointer;
     background-color: #DDD;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
 }
