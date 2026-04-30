@@ -4,6 +4,23 @@
     border: solid 1px #CCC;
     padding: 20px;
 }
+
+@media (max-width: 768px){
+    .home-container{
+        flex-direction: column;
+    }
+    .img-container{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+    .img-container img {
+        display: none;
+    }
+}
+
+
 .disponivel{
     width: fit-content;
     padding: 0px 15px;
@@ -20,7 +37,7 @@
 
 h1{
     font-family: var(--fonte-principal);
-    font-size: 62px;
+    font-size: clamp(32px, 8vw, 68px);
     margin: 8px 0px;
 }
 
@@ -30,7 +47,7 @@ p{
 }
 
 .paragraph-description{
-    width: 50%;
+    width: 70%;
 }
 
 .button-group{
@@ -47,10 +64,11 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: fit-content;
+    width: 50%;
+    max-width: 500px;
 }
 
 .img-container img{
-    width: 70vh;
+    width: 100%;
     height: auto;
 }
