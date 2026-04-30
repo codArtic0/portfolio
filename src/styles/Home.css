@@ -3,7 +3,6 @@
     display: flex;
     border: solid 1px #CCC;
     padding: 20px;
-    width: 100%;
 }
 .disponivel{
     width: fit-content;
