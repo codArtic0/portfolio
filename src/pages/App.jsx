@@ -1,20 +1,11 @@
-import "../styles/App.css";
+import Header from "../components/Header";
 import Home from "./Home";
-import About from "./About";
-import Stacks from "./Stacks";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <div className="app-container">
-        <main>
-          <Home />
-          <About />
-          <Stacks />
-        </main>
-      </div>
-    </>
+    <div id="home" className="app-container">
+      <Header/>
+      <Home/>
+    </div>
   );
 }
-
-export default App;

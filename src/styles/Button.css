@@ -1,0 +1,18 @@
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--fonte-principal);
+}
+
+.btn-primary {
+    background-color: var(--azul);
+    color: white;
+}
+
+.btn-secondary {
+    border: solid 2px #DDD;
+    background-color: white;
+    color: var(--azul);
+}
