@@ -4,15 +4,28 @@
     border-radius: 5px;
     cursor: pointer;
     font-family: var(--fonte-principal);
+    transition: 0.3s;
 }
 
 .btn-primary {
     background-color: var(--azul);
-    color: white;
+    color: var(--branco);
 }
 
 .btn-secondary {
     border: solid 2px #DDD;
-    background-color: white;
+    background-color: var(--branco);
     color: var(--azul);
+}
+
+.btn:hover{
+    padding: 10px 40px;
+}
+
+.btn-primary:hover {
+    background-color: var(--azul-hovered)
+}
+
+.btn-secondary:hover {
+    background-color: var(--branco-hovered);
 }
