@@ -51,7 +51,7 @@ export default function Skills(){
                 </div>
                 <div className="cards">
                     <div className="card-destaque">
-                        <img src="html.png" alt="Icone Aquarela" className="icon"/>
+                        <img src="pincel.png" alt="Icone Aquarela" className="icon"/>
                         <h3>Design</h3>
                         <div className="p-container-secundario">
                             <p>Trabalho há + de 6 anos com Design Gráfico, garantindo uma estética agradável ao seu site.</p>
@@ -64,7 +64,7 @@ export default function Skills(){
                         </ul>
                     </div>
                     <div className="card-principal">
-                        <img src="bd.png" alt="Icone Aquarela" className="icon"/>
+                        <img src="users.png" alt="Icone Aquarela" className="icon"/>
                         <h3>Soft Skills</h3>
                         <div className="p-container-principal">
                             <p>Além de habilidades técnicas, também vale destacar algumas habilidades sociais.</p>
