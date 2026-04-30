@@ -10,14 +10,14 @@
     width: fit-content;
     padding: 0px 15px;
     border-radius: 20px;
-    background-color: var(--azul);
+    background-color: var(--azul-claro);
 }
 
 .disponivel p{
     font-size: 12px;
     font-family: var(--fonte-principal);
     font-weight: 300;
-    color: var(--azul-claro);
+    color: var(--azul);
 }
 
 h1{
