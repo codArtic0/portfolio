@@ -1,8 +1,33 @@
 .header-container{
-    padding: 5px 20px;
+    width: 100%;
     background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.header-content-container{
+    width: 95%;
+    display: flex;
+}
+
+.logo-name, .menu{
+    display: flex;
+    flex: 1;
 }
 
 .name{
     font-size: 24px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+ul{
+    font-family: var(--fonte-principal);
+    list-style-type: none;
+    padding: 0;
 }
