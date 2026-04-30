@@ -11,7 +11,7 @@ export default function Home() {
                 <h1>Construindo soluções para sua empresa através de sites</h1>
                 <p>Construo sites com alta perfomance, e com as tecnologias mais atuais do mercado. Com SEO bem definido e site focado em experiência de usuário e design</p>
                 <div className="button-group">
-                    <Button variant="primary"> Contratar Agora </Button>
+                    <a href="https://wa.me/5587999967672?text=Ol%C3%A1!%20Vim%20pelo%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20comprar%20um%20site!"><Button variant="primary"> Contratar Agora </Button></a>
                     <Button variant="secondary"> Veja Meus Trabalhos </Button>
                 </div>
             </div>
