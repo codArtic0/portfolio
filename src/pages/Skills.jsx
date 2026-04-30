@@ -52,28 +52,28 @@ export default function Skills(){
                 <div className="cards">
                     <div className="card-destaque">
                         <img src="html.png" alt="Icone Aquarela" className="icon"/>
-                        <h3>Tecnologias Back-end</h3>
+                        <h3>Design</h3>
                         <div className="p-container-secundario">
-                            <p>Tenho conhecimentos técnicos em diversas linguagens de programação, destacando-se linguagens atuais e linguagens para web, como JavaScript e Python</p>
+                            <p>Trabalho há + de 6 anos com Design Gráfico, garantindo uma estética agradável ao seu site.</p>
                         </div>
                         <ul>
-                            <li>JavaScript</li>
-                            <li>Node.JS</li>
-                            <li>Python</li>
-                            <li>Java</li>
+                            <li>Figma</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Adobe After Effects</li>
+                            <li>Corel Draw</li>
                         </ul>
                     </div>
                     <div className="card-principal">
                         <img src="bd.png" alt="Icone Aquarela" className="icon"/>
-                        <h3>Banco de Dados</h3>
-                        <div className="p-container-secundario">
-                            <p>Domino diversos estilos de Bancos de Dados (sejam eles relacionais ou não), bem como linguagens de manipulação dos mesmos.</p>
+                        <h3>Soft Skills</h3>
+                        <div className="p-container-principal">
+                            <p>Além de habilidades técnicas, também vale destacar algumas habilidades sociais.</p>
                         </div>
                         <ul>
-                            <li>PostgreSQL</li>
-                            <li>MySQL</li>
-                            <li>Prisma</li>
-                            <li>Mongo.DB</li>
+                            <li>Proatividade</li>
+                            <li>Liderança</li>
+                            <li>Criatividade</li>
+                            <li>Trabalho em Equipe</li>
                         </ul>
                     </div>
                 </div>

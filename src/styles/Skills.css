@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
 }
 
 .cards-group{
@@ -37,7 +36,7 @@ h3{
     align-items: stretch;
     justify-content: center;
     gap: 30px;
-    width: 95%;
+    width: 90%;
 }
 .card-principal, .card-secundario, .card-destaque{
     display: flex;
@@ -56,7 +55,7 @@ h3{
     width: 150%;
     background-color: var(--cinzinha);
 }
-.card-secundario, .card-destaque{
+.card-secundario{
     width: fit-content;
 }
 
@@ -64,6 +63,7 @@ h3{
     background-color: var(--azul);
     color: white;
     border-radius: 20px;
+    width: 100%;
 }
 .icon{
     width: 30px;
