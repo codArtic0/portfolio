@@ -1,11 +1,10 @@
 .home-container{
     background-color: var(--cinzinha);
     display: flex;
-    flex-direction: column;
     border: solid 1px #CCC;
     padding: 20px;
+    width: 100%;
 }
-
 .disponivel{
     width: fit-content;
     padding: 0px 15px;
@@ -22,6 +21,7 @@
 
 h1{
     font-family: var(--fonte-principal);
+    font-size: 62px;
 }
 
 p{
@@ -32,4 +32,21 @@ p{
 .button-group{
     display: flex;
     gap: 20px;
+}
+
+.txt-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.img-container img{
+    width: 70vh;
+    height: auto;
 }
