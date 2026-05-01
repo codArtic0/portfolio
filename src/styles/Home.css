@@ -46,7 +46,7 @@
 
 h1{
     font-family: var(--fonte-principal);
-    font-size: clamp(40px, 8vw, 72px);
+    font-size: clamp(52px, 8vw, 72px);
     margin: 8px 0px;
     width: 80%;
 }
