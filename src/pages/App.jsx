@@ -2,6 +2,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Home from "./Home";
 import Skills from "./Skills";
+import Works from "./Works";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Header/>
       <Home/>
       <Skills/>
+      <Works/>
       <Footer/>
     </div>
   );
