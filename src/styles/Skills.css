@@ -61,7 +61,6 @@ h3{
 }
 
 .card-destaque {
-    
     background: linear-gradient(120deg, var(--azul) 30%, var(--azul-escuro));
     color: white;
     border-radius: 20px;
@@ -79,4 +78,176 @@ h3{
 
 .card-principal:hover, .card-secundario:hover, .card-destaque:hover{
     transform: translateY(-30px);
+}
+
+/* Responsividade para Tablets */
+@media (max-width: 1024px) {
+    .cards {
+        flex-direction: column;
+        width: 80%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .card-principal {
+        width: 100%;
+    }
+
+    .card-secundario {
+        width: 100%;
+    }
+
+    .card-destaque {
+        width: 100%;
+    }
+
+    .cards-group {
+        gap: 30px;
+    }
+
+    h2 {
+        margin: 30px 20px 0 20px;
+        text-align: center;
+    }
+
+    .description-skills {
+        margin: 20px 20px 0 20px;
+        text-align: center;
+    }
+
+    .head-page p{
+        margin-bottom: 25px;
+    }
+}
+
+/* Responsividade para Celulares */
+@media (max-width: 768px) {
+    .skills-container {
+        padding: 20px 0px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+        padding: 0 16px;
+        box-sizing: border-box;
+        gap: 20px;
+    }
+
+    .card-principal,
+    .card-secundario,
+    .card-destaque {
+        width: 100%;
+        padding: 16px;
+        border-radius: 12px;
+    }
+
+    .cards-group {
+        gap: 20px;
+    }
+
+    h2 {
+        font-size: clamp(18px, 5vw, 28px);
+        margin: 20px 16px 0 16px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: clamp(14px, 4vw, 16px);
+        margin: 15px 0 10px 0;
+    }
+
+    .description-skills {
+        margin: 12px 16px 0 16px;
+        text-align: center;
+        font-size: clamp(12px, 3vw, 14px);
+    }
+
+    .icon {
+        width: 24px;
+    }
+
+    .card-principal:hover,
+    .card-secundario:hover,
+    .card-destaque:hover {
+        transform: translateY(-15px);
+    }
+
+    .head-page {
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+
+    ul {
+        font-size: clamp(12px, 3vw, 14px);
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 0 0;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-size: clamp(12px, 3vw, 14px);
+        line-height: 1.5;
+    }
+}
+
+/* Responsividade para Smartphones muito pequenos */
+@media (max-width: 480px) {
+    .skills-container {
+        padding: 15px 0px;
+    }
+
+    .cards {
+        padding: 0 12px;
+        gap: 15px;
+    }
+
+    .card-principal,
+    .card-secundario,
+    .card-destaque {
+        padding: 12px;
+    }
+
+    .cards-group {
+        gap: 15px;
+    }
+
+    h2 {
+        font-size: clamp(16px, 6vw, 24px);
+        margin: 15px 12px 0 12px;
+    }
+
+    h3 {
+        font-size: clamp(12px, 4vw, 14px);
+        margin: 12px 0 8px 0;
+    }
+
+    .description-skills {
+        margin: 10px 12px 0 12px;
+        font-size: clamp(11px, 3vw, 12px);
+    }
+
+    .icon {
+        width: 20px;
+    }
+
+    ul {
+        padding-left: 0;
+        font-size: clamp(11px, 3vw, 12px);
+    }
+
+    li {
+        margin-bottom: 6px;
+    }
+
+    p {
+        font-size: clamp(11px, 3vw, 12px);
+        line-height: 1.4;
+    }
 }
