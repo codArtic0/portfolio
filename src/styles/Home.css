@@ -9,6 +9,8 @@
 @media (max-width: 768px){
     .home-container{
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .img-container{
         display: flex;
@@ -18,6 +20,12 @@
     }
     .img-container img {
         display: none;
+    }
+    .btn.btn-primary, .btn.btn-secondary{
+       width: fit-content; 
+       height: fit-content;
+       font-size: 12px;
+       padding: 12px;
     }
 }
 
@@ -38,7 +46,7 @@
 
 h1{
     font-family: var(--fonte-principal);
-    font-size: clamp(32px, 8vw, 72px);
+    font-size: clamp(15px, 8vw, 72px);
     margin: 8px 0px;
     width: 80%;
 }
