@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-    margin: 0;
-
+:root {
     --fonte-principal: 'Inter', sans-serif;
     --fonte-destaque: 'Montserrat', sans-serif;
     --azul: #2770FA;
+    --azul-escuro: #104ebf;
     --azul-hovered: #4987fb;
     --branco: #FFF;
     --branco-hovered: #EEE;
     --azul-claro: #b0ccff;
     --cinzinha: #F8FAFC;
     --cinza-escuro: #8b8b8b;
+}
+
+body{
+    margin: 0;
 }

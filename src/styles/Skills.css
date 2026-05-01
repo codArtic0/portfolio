@@ -60,7 +60,8 @@ h3{
 }
 
 .card-destaque {
-    background-color: var(--azul);
+    
+    background: linear-gradient(120deg, var(--azul) 30%, var(--azul-escuro));
     color: white;
     border-radius: 20px;
     width: 100%;
