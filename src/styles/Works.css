@@ -24,6 +24,7 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
+    flex: 1;
 }
 
 .card-work{
@@ -34,18 +35,33 @@
     border-radius: 20px;
     transition: 0.6s;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 550px;
+    overflow: hidden;
 }
+.card-img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
 .card-img img{
-    width: 30vh;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .card-text{
     background-color: #dadada;
     border-radius: 20px;
     padding: 20px;
-    position: sticky;
     margin-bottom: 0px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .card-text h3{
@@ -57,20 +73,23 @@
     cursor: pointer;
 }
 
-.azul{
-    background: linear-gradient(180deg, var(--azul), var(--azul-escuro));
+.azul, .verde{
     color: white;
     border-radius: 20px;
     padding: 20px;
-    position: sticky;
     margin-bottom: 0px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.azul{
+    background: linear-gradient(180deg, var(--azul), var(--azul-escuro));
 }
 
 .verde{
     background: linear-gradient(180deg, var(--verde), var(--verde-escuro));
-    color: white;
-    border-radius: 20px;
-    padding: 20px;
-    position: sticky;
-    margin-bottom: 0px;
 }
