@@ -9,7 +9,7 @@ export default function Works(){
                 <p>Confira alguns projetos que realizei para aprendizado na Universidade Estadual da Paraíba.</p>
             </div>
             <div className="card-container">
-                <a href="https://github.com/codartic0/api-fit" target="_blank">
+                <a href="https://github.com/codartic0/api-fit" target="_blank" rel="noopener noreferrer">
                     <WorkCard 
                         image="monitor.webp" 
                         title="FitForge - Tracker Nutricional" 
@@ -18,7 +18,7 @@ export default function Works(){
                     />
                 </a>
 
-                <a href="https://github.com/codartic0/caneco-front-end" target="_blank">
+                <a href="https://github.com/codartic0/caneco-front-end" target="_blank" rel="noopener noreferrer">
                     <WorkCard 
                         image="logoCaneco.jpg" 
                         title="CANECO - Caixa Automatizado para Negócios e Controle Operacional" 
@@ -27,7 +27,7 @@ export default function Works(){
                     />
                 </a>
 
-                <a href="https://github.com/codartic0/GUITripleTriad" target="_blank">
+                <a href="https://github.com/codartic0/GUITripleTriad" target="_blank" rel="noopener noreferrer">
                     <WorkCard 
                         image="tt.png" 
                         title="TRIPLE TRIAD - Jogo feito em Python" 
