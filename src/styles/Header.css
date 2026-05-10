@@ -21,17 +21,32 @@
 }
 
 .name{
-    font-size: 24px;
+    font-size: 22px;
 }
 
-.menu{
+.name, .menu{
     display: flex;
     align-items: center;
-    justify-content: right;
 }
 
-ul{
-    font-family: var(--fonte-principal);
-    list-style-type: none;
-    padding: 0;
+.header-container li{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.header-container li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-container li:hover{
+    cursor: pointer;
+    background-color: var(--azul);
+    color: white;
+}
+
+.header-container li:hover a{
+    color: white;
 }
