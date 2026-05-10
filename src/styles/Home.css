@@ -1,5 +1,5 @@
 .home-container{
-    background-color: var(--cinzinha);
+    background-image: url('bg.png');
     display: flex;
     border: solid 1px #CCC;
     padding: 20px;
