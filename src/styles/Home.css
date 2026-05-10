@@ -1,5 +1,5 @@
 .home-container{
-    background-image: url('bg.png');
+    background-image: url('../assets/bg.png');
     display: flex;
     border: solid 1px #CCC;
     padding: 20px;

@@ -1,5 +1,5 @@
 .skills-container{
-    background-image: url('bg.png');
+    background-image: url('../assets/bg.png');
     display: flex;
     align-items: center;
     justify-content: center;
