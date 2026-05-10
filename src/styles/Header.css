@@ -33,15 +33,20 @@
     cursor: pointer;
     border-radius: 15px;
     transition: 0.5s;
+    list-style: none;
 }
 
 .header-container li a{
     text-decoration: none;
     color: inherit;
+    padding: 10px 20px;
+    border-radius: 15px;
+    display: block;
+    transition: 0.5s;
 }
 
 .header-container a{
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 15px;
     color: inherit;
 }
@@ -53,5 +58,6 @@
 }
 
 .header-container li:hover a{
+    background-color: var(--azul);
     color: white;
 }
