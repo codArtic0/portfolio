@@ -23,7 +23,7 @@
 }
 
 .btn-primary:hover {
-    background-color: var(--azul-hovered)
+    background-color: var(--azul-hovered);
 }
 
 .btn-secondary:hover {
