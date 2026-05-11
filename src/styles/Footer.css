@@ -1,7 +1,6 @@
 .footer-container{
     width: 100%;
     padding: 20px 0px;
-    background-color: white;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -51,4 +50,58 @@ ul{
 a{
     color: #000;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 15px 0px;
+    }
+
+    .footer-content-container {
+        gap: 15px;
+    }
+
+    .logo-name, .direitos, .menu {
+        flex: 1;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .menu {
+        justify-content: right;
+    }
+
+    .footer-container ul {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .footer-container li {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        padding: 10px 0px;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    ul {
+        gap: 8px;
+    }
+
+    .footer-container li {
+        padding: 6px 12px;
+        font-size: 12px;
+        border-radius: 15px;
+    }
 }
