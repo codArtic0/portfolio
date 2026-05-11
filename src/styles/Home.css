@@ -1,9 +1,38 @@
 .home-container{
-    background-image: url('../assets/bg.png');
+    background: linear-gradient(135deg, var(--bg-darker) 0%, var(--bg-dark) 50%, rgba(131, 56, 236, 0.1) 100%);
     display: flex;
-    border: solid 1px #CCC;
+    border: none;
+    border-bottom: 1px solid rgba(0, 217, 255, 0.2);
     padding: 20px;
     height: 90vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(0, 217, 255, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+    filter: blur(40px);
+    z-index: 0;
+}
+
+.home-container::after {
+    content: '';
+    position: absolute;
+    bottom: -30%;
+    left: -5%;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(131, 56, 236, 0.15) 0%, transparent 70%);
+    border-radius: 50%;
+    filter: blur(40px);
+    z-index: 0;
 }
 
 @media (max-width: 768px){
@@ -32,16 +61,22 @@
 
 .disponivel{
     width: fit-content;
-    padding: 0px 15px;
+    padding: 8px 16px;
     border-radius: 20px;
-    background-color: var(--azul-claro);
+    background: rgba(0, 217, 255, 0.15);
+    border: 1px solid rgba(0, 217, 255, 0.3);
+    box-shadow: 0 0 15px rgba(0, 217, 255, 0.2);
+    position: relative;
+    z-index: 1;
 }
 
 .disponivel p{
     font-size: 12px;
     font-family: var(--fonte-principal);
-    font-weight: 300;
-    color: var(--azul);
+    font-weight: 600;
+    color: var(--cyan);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 217, 255, 0.4);
 }
 
 h1{
@@ -49,6 +84,15 @@ h1{
     font-size: clamp(30px, 5vw, 55px);
     margin: 8px 0px;
     width: 80%;
+    color: var(--text-primary);
+    font-weight: 800;
+    letter-spacing: -1px;
+    background: linear-gradient(90deg, var(--text-primary) 0%, var(--cyan) 50%, var(--verde-neon) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    z-index: 1;
 }
 
 p{
@@ -63,12 +107,16 @@ p{
 .button-group{
     display: flex;
     gap: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .txt-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    z-index: 1;
 }
 .img-container {
     display: flex;

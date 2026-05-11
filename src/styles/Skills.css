@@ -1,10 +1,28 @@
 .skills-container{
-    background-image: url('../assets/bg.png');
+    background: linear-gradient(135deg, var(--bg-darker) 0%, var(--bg-dark) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 40px 0px;
+    border-top: 1px solid rgba(0, 217, 255, 0.2);
+    border-bottom: 1px solid rgba(0, 217, 255, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.skills-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(131, 56, 236, 0.2) 0%, transparent 70%);
+    border-radius: 50%;
+    filter: blur(40px);
+    z-index: 0;
 }
 
 .cards-group{
@@ -26,12 +44,23 @@ h2{
     font-family: var(--fonte-principal);
     font-size: clamp(16px, 4vw, 34px);
     margin: 40px 0 0 0;
+    color: var(--text-primary);
+    font-weight: 800;
+    background: linear-gradient(90deg, var(--cyan) 0%, var(--verde-neon) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    z-index: 1;
 }
 
 h3{
     font-family: var(--fonte-principal);
     font-size: clamp(8px, 2vw, 17px);
     margin: 20px 0 0 0;
+    color: var(--text-secondary);
+    position: relative;
+    z-index: 1;
 }
 .cards{
     display: flex;
@@ -43,10 +72,14 @@ h3{
 .card-principal, .card-secundario, .card-destaque{
     display: flex;
     flex-direction: column;
-    border: solid 1px #CCC;
+    border: 1px solid rgba(0, 217, 255, 0.2);
     padding: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: 0.6s;
+    box-shadow: 0 8px 32px rgba(0, 217, 255, 0.1);
+    transition: all 0.6s ease;
+    background-clip: padding-box;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(10px);
 }
 
 .description-skills{
@@ -55,18 +88,23 @@ h3{
 
 .card-principal{
     width: 150%;
-    background-color: var(--cinzinha);
+    background: linear-gradient(135deg, rgba(15, 22, 41, 0.8) 0%, rgba(26, 37, 64, 0.6) 100%);
+    color: var(--text-primary);
 }
 .card-secundario{
-    background-color: white;
+    background: rgba(15, 22, 41, 0.9);
+    color: var(--text-primary);
     width: fit-content;
+    border-color: rgba(6, 255, 165, 0.2);
 }
 
 .card-destaque {
-    background: linear-gradient(120deg, var(--azul) 30%, var(--azul-escuro));
-    color: white;
-    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(0, 217, 255, 0.2) 0%, rgba(131, 56, 236, 0.15) 100%);
+    color: var(--cyan);
+    border: 1px solid rgba(0, 217, 255, 0.4);
+    border-radius: 12px;
     width: 100%;
+    box-shadow: 0 8px 32px rgba(0, 217, 255, 0.2);
 }
 .icon{
     width: 30px;
@@ -80,6 +118,8 @@ h3{
 
 .card-principal:hover, .card-secundario:hover, .card-destaque:hover{
     transform: translateY(-30px);
+    border-color: rgba(0, 217, 255, 0.6);
+    box-shadow: 0 15px 40px rgba(0, 217, 255, 0.3);
 }
 
 /* Responsividade para Tablets */
