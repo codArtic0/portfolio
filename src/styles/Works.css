@@ -118,7 +118,7 @@
     font-family: var(--fonte-principal);
 }
 
-.azul, .verde, .vermelho{
+.azul{
     color: white;
     border-radius: 0;
     padding: 28px 24px;
@@ -131,14 +131,14 @@
     box-sizing: border-box;
 }
 
-.azul h3, .verde h3, .vermelho h3{
+.azul h3{
     font-size: 17px;
     font-weight: 600;
     margin: 0 0 10px 0;
     font-family: var(--fonte-destaque);
 }
 
-.azul p, .verde p, .vermelho p{
+.azul p{
     font-size: 13px;
     line-height: 1.6;
     margin: 0;
@@ -146,14 +146,6 @@
     font-family: var(--fonte-principal);
 }
 
-.verde{
-    background: linear-gradient(180deg, var(--verde) 0%, var(--verde-escuro) 100%);
-}
-
 .azul{
     background: linear-gradient(180deg, var(--azul) 0%, var(--azul-escuro) 100%);
-}
-
-.vermelho{
-    background: linear-gradient(180deg, red 0%, rgb(208, 11, 11) 100%);
 }

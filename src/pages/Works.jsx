@@ -12,9 +12,9 @@ export default function Works(){
                 <a href="https://github.com/codartic0/api-fit" target="_blank" rel="noopener noreferrer">
                     <WorkCard 
                         image="monitor.webp" 
-                        title="FitForge - Tracker Nutricional" 
-                        description="O FitForge é uma aplicação WEB com API RESTful robusta desenvolvida em Node.js e front-end desenvolvido utilizando React.JS para auxiliar no planejamento nutricional e avaliação física. Calculando TMB e TDEE, o FitForge oferece ferramentas completas para criação de perfis nutricionais, cálculo de macronutrientes personalizados e integração com a Tabela Brasileira de Composição de Alimentos (TACO) para rastreamento preciso de refeições."
-                        color="verde"
+                        title="FitForge - API REST Nutricional Otimizada" 
+                        description="Aplicação Full-Stack de alta performance com API RESTful robusta, com buscas otimizadas e oferecendo dashboards responsivos e processamento matemático complexo para planejamento nutricional e avaliação física."
+                        color="azul"
                     />
                 </a>
 
@@ -22,7 +22,7 @@ export default function Works(){
                     <WorkCard 
                         image="logoCaneco.jpg" 
                         title="CANECO - Caixa Automatizado para Negócios e Controle Operacional" 
-                        description="O CANECO é sistema de frente de caixa (PDV) desenvolvido como projeto da disciplina de Laboratório de Engenharia de Software para otimizar o gerenciamento de vendas e estoque em supermercados. Este repositório contém a interface do usuário, construída com foco em performance, usabilidade e integração em tempo real com a API."
+                        description="Sistema de Frente de Caixa (PDV) Full-Stack focado em otimização operacional. Implementa integração de pagamento em tempo real, gerenciamento de estoque escalável e geração de relatórios de vendas."
                         color="azul"
                     />
                 </a>
@@ -30,9 +30,9 @@ export default function Works(){
                 <a href="https://github.com/codartic0/GUITripleTriad" target="_blank" rel="noopener noreferrer">
                     <WorkCard 
                         image="tt.png" 
-                        title="TRIPLE TRIAD - Jogo feito em Python" 
-                        description="O projeto Triple Triad é um jogo de cartas baseado em Final Fantasy. Foi feito para a disciplina de Paradigmas de Programação, utilizando POE (Programação Orientada a Eventos). Contém um back-end robusto, design totalmente personalizado, renderização de cartas e sprites, lógica funcional, dentre outros."
-                        color="vermelho"
+                        title="TRIPLE TRIAD - Lógica de Jogo em Python" 
+                        description="Implementação de lógica de jogo complexa e regras de interação de cartas utilizando Programação Orientada a Objetos (POO) e Padrões de Projeto (Design Patterns) em Python."
+                        color="azul"
                     />
                 </a>
             </div>
