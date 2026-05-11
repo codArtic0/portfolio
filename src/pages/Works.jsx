@@ -20,7 +20,7 @@ export default function Works(){
 
                 <a href="https://github.com/codartic0/caneco-front-end" target="_blank" rel="noopener noreferrer">
                     <WorkCard 
-                        image="logoCaneco.jpg" 
+                        image="cnc.png" 
                         title="CANECO - Caixa Automatizado para Negócios e Controle Operacional" 
                         description="Sistema de Frente de Caixa (PDV) Full-Stack focado em otimização operacional. Implementa integração de pagamento em tempo real, gerenciamento de estoque escalável e geração de relatórios de vendas."
                         color="azul"
