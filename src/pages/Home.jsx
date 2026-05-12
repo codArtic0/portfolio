@@ -1,5 +1,6 @@
 import "../styles/Home.css"
 import Button from "../components/Button"
+import { Link } from "react-router-dom"
 
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
                 </div>
                 <div className="button-group">
                     <a href="https://wa.me/5587999967672?text=Ol%C3%A1!%20Vim%20pelo%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20comprar%20um%20site!" target="_blank" rel="noopener noreferrer"><Button variant="primary"> Ver orçamento </Button></a>
-                    <Button variant="secondary"> Veja Meus Trabalhos</Button>
+                    <Link to="/works"><Button variant="secondary"> Veja Meus Trabalhos</Button></Link>
                 </div>
             </div>
             <div className="img-container">
